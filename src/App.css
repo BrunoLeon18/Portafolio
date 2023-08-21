@@ -26,19 +26,19 @@
 }
 
 .swiper-3d .swiper-slide-shadow {
-    background: none;
+    background: none !important;
  }
  .swiper-3d .swiper-slide-shadow-left {
-   background: none;
+   background: none !important;
  }
  .swiper-3d .swiper-slide-shadow-right {
-    background: none;
+    background: none !important;
  }
  .swiper-3d .swiper-slide-shadow-top {
-    background: none;
+    background: none !important;
  }
  .swiper-3d .swiper-slide-shadow-bottom {
-    background: none;
+    background: none !important;
  }
 
 
