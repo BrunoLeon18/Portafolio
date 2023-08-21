@@ -25,7 +25,21 @@
     min-height: 100vh;
 }
 
-
+.swiper-3d .swiper-slide-shadow {
+    background: none;
+ }
+ .swiper-3d .swiper-slide-shadow-left {
+   background: none;
+ }
+ .swiper-3d .swiper-slide-shadow-right {
+    background: none;
+ }
+ .swiper-3d .swiper-slide-shadow-top {
+    background: none;
+ }
+ .swiper-3d .swiper-slide-shadow-bottom {
+    background: none;
+ }
 
 
 /* .wrapper{
