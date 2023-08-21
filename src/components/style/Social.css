@@ -1,0 +1,32 @@
+.social__github, .social__linkedin{
+    position: fixed;
+    left: 1em;
+    font-size: 1.8em;
+    cursor: pointer;
+    transition: transform 600ms ease;
+    z-index: 1;
+}
+
+.social__linkedin:hover{
+    transform:scale(1.5);
+}
+
+.social__github:hover{
+    transform:scale(1.5);
+}
+
+
+
+.social__linkedin{
+   bottom: 2em;
+}
+
+.social__github{
+    bottom: 4em;
+}
+
+@media(max-width:768px){
+    .social__github,.social__linkedin{
+        display: none;
+    }
+}

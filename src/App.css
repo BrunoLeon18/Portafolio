@@ -1,0 +1,39 @@
+
+:root
+{
+    --bg-color-one:#404146;
+    --bg-color-two:#121417;
+    --color-letter:#DDDDDD;
+    --color-sub-letter:#a2aab9;
+}
+
+/* Dark mode */
+
+.dark-mode{
+    --bg-color-one:#DDDDDD;
+    --bg-color-two:#DDDDDD;
+    --color-letter:#404146;
+    --color-sub-letter:#404146;
+    transition:all 5s;
+
+}
+
+
+.wrapper{
+    background: radial-gradient(circle at top left, var(--bg-color-one) 0%, var(--bg-color-two) 100%);
+    color: var(--color-letter);
+    min-height: 100vh;
+}
+
+
+
+
+/* .wrapper{
+    scroll-snap-type: y mandatory;
+   overflow-y: scroll;
+   height: 100vh;
+}
+
+ section{
+   scroll-snap-align: start;
+} */

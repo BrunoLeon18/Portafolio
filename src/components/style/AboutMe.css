@@ -1,0 +1,121 @@
+.container__section-about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+.container__text-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about__title{
+   font-size: max(15vw, 60px);
+   color:transparent;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+   line-height: 0.7em;
+   letter-spacing: -0.03em;
+   padding: 0.1em 0 0 0.1em; 
+}
+
+.about__title-me{
+    -webkit-text-stroke: 3px var(--color-letter);
+    transition:all 0.5s;
+}
+
+.about__title :nth-child(1), :nth-child(2){
+    color: var(--color-letter);
+    transition:all 0.5s;
+}
+
+.about__description__skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    color: var(--color-letter);
+    transition:all 0.5s;
+}
+
+.skills{
+    margin-left: 1em;
+}
+
+.skills__title{
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+    color: var(--color-letter);
+}
+
+.items{
+    line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: transform 500ms ease;
+    color: var(--color-letter)
+}
+
+.items:hover{
+    transform: scale(1.03);
+    cursor:context-menu
+}
+
+.about__description{
+    max-width: 520px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    letter-spacing: 0.2em;
+    margin-left: 1em;
+    font-size: max(0.6vw, 12px);
+    color: var(--color-letter)
+}
+
+.about__list-skills{
+    font-size: max(1vw, 12px);
+}
+
+
+@media(max-width: 768px){
+    .container__text-about{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: normal;
+    }
+    .about__title{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 1.4em;
+        padding: 0;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .about__description{
+        font-size: 10px;
+        padding: 0 1em;
+    }
+
+    .about__description__skills{
+        text-align: center;
+        justify-content: flex-start;
+        margin-top: 1em ;
+        gap: 0;
+    }
+
+    .skills__title{
+        font-size: 2em;
+
+    }
+}

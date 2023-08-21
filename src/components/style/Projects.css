@@ -1,0 +1,140 @@
+.container__section-projects{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    /* overflow: hidden; */
+}
+
+.projects__title{
+    font-size: max(10vw,50px);
+    text-transform: uppercase;
+    letter-spacing: -0.07em;
+    text-align: center;
+    padding-right: 0.1em;
+    transition:all 0.5s;
+}
+
+.letter{
+    -webkit-text-stroke: 3px var(--color-letter);
+    color: transparent;
+    transition:all 0.5s;
+}
+
+.container__text-projects{
+    max-width:1080px;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.swiper{
+    width: 100%;
+    padding:3em 0;
+    
+}
+
+.swiper-slide{
+   max-width: 300px;
+   min-height:300px;
+   background: none
+}
+
+.slider-contain{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+}
+
+.slider-contain img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius:0.3em;
+    filter:grayscale(50%) brightness(0.8);
+    transition: 0.5s ease-out;
+}
+
+.slider-contain-text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-out;
+}
+
+.slider-contain:hover > .slider-contain-text{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-out;
+    
+
+}
+
+.slider-contain:hover > .slider-contain-text .slider-text{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    transition: 0.5s ease-out;
+}
+
+.slider-text{
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 2em;
+    color: #ffffff;
+    transition: 0.5s ease-out;
+    margin-bottom: 5em;
+}
+
+.slider-contain-text p{
+    text-transform: uppercase;
+    font-weight:300;
+    line-height: 1.3em;
+    margin: auto;
+    width: 100%;
+    max-width:200px;
+    letter-spacing:0.1em;
+    color: #ffffff;
+}
+
+.slider-contain-text p a{
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+
+.slider-controler{
+    position: relative;
+    bottom: -3em;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    z-index: 0;
+}
+
+
+.swiper-pagination {
+    position: relative;
+    width: 15rem;
+    bottom: 1rem;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: var(--color-letter);
+    transition:all 0.5s;
+  }
