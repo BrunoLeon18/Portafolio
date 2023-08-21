@@ -29,16 +29,16 @@ const Header = () => {
       <nav className='navbar' >
         <ul className={`navbar__list ${showMenu && 'show--menu'}`}>
           <li className="navbar__list__item" data-aos="fade-up" >
-            <a href="#home" onClick={showOpen} >home</a>
+            <a href="#home" onClick={showOpen} >inicio</a>
           </li>
           <li className="navbar__list__item" data-aos="fade-up" data-aos-delay="500">
-            <a href="#about" onClick={showOpen}>about me</a>
+            <a href="#about" onClick={showOpen}>sobre mi</a>
           </li>
           <li className="navbar__list__item" data-aos="fade-up" data-aos-delay="1000">
-            <a href="#projects" onClick={showOpen}>projects</a>
+            <a href="#projects" onClick={showOpen}>proyectos</a>
           </li>
           <li className="navbar__list__item" data-aos="fade-up" data-aos-delay="1500">
-            <a href="#contact">contact</a>
+            <a href="#contact">contacto</a>
           </li>
         </ul>
         <button onClick={showOpen} className="menu-responsive" >
