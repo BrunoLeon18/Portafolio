@@ -37,7 +37,7 @@ const Header = () => {
           <li className="navbar__list__item" data-aos="fade-up" data-aos-delay="1000">
             <a href="#projects" onClick={showOpen}>proyectos</a>
           </li>
-          <li className="navbar__list__item" data-aos="fade-up" data-aos-delay="1500">
+          <li className="navbar__list__item" onClick={showOpen} data-aos="fade-up" data-aos-delay="1500">
             <a href="#contact">contacto</a>
           </li>
         </ul>

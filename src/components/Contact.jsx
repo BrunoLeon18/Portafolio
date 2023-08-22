@@ -6,14 +6,14 @@ const Contact = () => {
     <section className="container__section-contact" id="contact"  >
       <div className="contact__group">
         <div className="contact__title" style={{overflow:'hidden'}}>
-          <h2 style={{overflow:'hidden'}}>
+          <h2>
             <span data-aos='fade-down' data-aos-delay='300'>con</span><span data-aos='fade-right' data-aos-delay='500'>tac</span>
             <span className="letter" data-aos='fade-up' data-aos-delay='700'>to</span>
           </h2>
         </div>
         <article className="contact__info">
-          <div className="contact__paragraph" style={{overflow:'hidden'}} >
-            <p className="contact__par" data-aos='fade-down'>
+          <div className="contact__paragraph" >
+            <p className="contact__par" data-aos='fade-left'>
               Gracias por visitar mi pagina de contacto. Si estas interesado de
               contar con mis servicios o en colaborar en un proyecto estaré
               encantado de escucharte. Espero que podamos trabajar juntos.
