@@ -113,9 +113,10 @@
 .contact__social{
     cursor: pointer;
     margin-top: 1em;
+
 }
 
-.contact__github, .contact__linkedin{
+.contact__github, .contact__linkedin, .contact__gmail{
     display: inline-block;
     width: 1em;
     margin-right: 2em;
@@ -123,7 +124,19 @@
     transition: transform 500ms ease;
 }
 
-.contact__linkedin:hover, .contact__github:hover{
+.contact__github a i{
+    color: var(--color-letter);
+}
+
+.contact__linkedin a i{
+    color: var(--color-letter);
+}
+
+.contact__gmail a i{
+    color: var(--color-letter);
+}
+
+.contact__linkedin:hover, .contact__github:hover, .contact__gmail:hover{
     transform: scale(1.5);
 }
 
@@ -165,7 +178,7 @@
         justify-content: center;
     }
 
-    .contact__linkedin, .contact__github{
+    .contact__linkedin, .contact__github, .contact__gmail{
         margin: 0;
         padding:0 1em;
     }

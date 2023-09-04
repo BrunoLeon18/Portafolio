@@ -23,6 +23,7 @@
     background: radial-gradient(circle at top left, var(--bg-color-one) 0%, var(--bg-color-two) 100%);
     color: var(--color-letter);
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .swiper-3d .swiper-slide-shadow {

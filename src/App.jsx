@@ -11,9 +11,6 @@ import Social from "./components/Social";
 
 function App() {
   
- 
-
-
   return (
     <div className="wrapper">
       <Header />

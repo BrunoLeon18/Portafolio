@@ -1,21 +1,36 @@
-.social__github, .social__linkedin{
+.social__github, .social__linkedin, .social__gmail{
     position: fixed;
     left: 1em;
     font-size: 1.8em;
     cursor: pointer;
     transition: transform 600ms ease;
     z-index: 1;
+
+}
+
+.social__github a i{
+    color: var(--color-letter);
+}
+
+.social__linkedin a i{
+    color: var(--color-letter);
+}
+
+.social__gmail a i{
+    color: var(--color-letter);
 }
 
 .social__linkedin:hover{
     transform:scale(1.5);
 }
 
-.social__github:hover{
+.social__gmail:hover{
     transform:scale(1.5);
 }
 
-
+.social__github:hover{
+    transform:scale(1.5);
+}
 
 .social__linkedin{
    bottom: 2em;
@@ -25,8 +40,12 @@
     bottom: 4em;
 }
 
+.social__gmail{
+    bottom: 6em;
+}
+
 @media(max-width:768px){
-    .social__github,.social__linkedin{
+    .social__github,.social__linkedin, .social__gmail{
         display: none;
     }
 }

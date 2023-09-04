@@ -18,13 +18,16 @@ const Contact = () => {
               contar con mis servicios o en colaborar en un proyecto estaré
               encantado de escucharte. Espero que podamos trabajar juntos.
             </p>
-              <a className="curriculum" href="./CVbrunoLeon.pdf" data-aos='fade-right' target="_blank" rel="noreferrer"><span>cv</span><i className='bx bx-download'></i></a>
+              <a className="curriculum" href="./CurriculunVitaeBrunoLeon2023.pdf" data-aos='fade-right' target="_blank" rel="noreferrer"><span>cv</span><i className='bx bx-download'></i></a>
             <div className="contact__social" >
               <span className="contact__linkedin" data-aos='zoom-in' data-aos-delay='500'>
               <a href="https://www.linkedin.com/in/bruno-leon-calderon-46046a212/" target="_blank" rel="noreferrer"> <i className="bx bxl-linkedin" ></i></a>
               </span>
               <span className="contact__github" data-aos='zoom-in' data-aos-delay='800'>
               <a href="https://github.com/BrunoLeon18" target="_blank" rel="noreferrer"><i className="bx bxl-github"></i></a>
+              </span>
+              <span className="contact__gmail" data-aos='zoom-in' data-aos-delay='1100'>
+              <a href="mailto:brunoleoncalderon18@gmail.com" target="_blank" rel="noreferrer"><i className="bx bxl-gmail"></i></a>
               </span>
             </div>
           </div>
